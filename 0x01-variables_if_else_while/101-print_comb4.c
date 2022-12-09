@@ -11,23 +11,24 @@ int main(void)
 
 	for (m = 10; m <= 20; m++);
 	{
-		for (n =11; n <= 21; n++);
+	  for (n =11; n <= 21; n++);
+	 {
+	   for (q = 12; q <= 22; q++);
+	   {
+	     if (q > n && n > m)
 		{
-			for (q = 12; q <= 22; q++);
-			{
-			 if (q > n > m)
-			{
-				putchar(m);
-				putchar(n);
-				putchar(q);
-			}
-			if (m != 20 || n!= 21 || q != 22)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-			}
+			putchar(m);
+			putchar(n);
+			putchar(q);
 		}
+		  if (m != 20 || n!= 21 )
+		    {
+			putchar(',');
+			putchar(' ');
+		    }
+			
+	   }
+	}
 	}
 	putchar('\n');
 	return (0);
