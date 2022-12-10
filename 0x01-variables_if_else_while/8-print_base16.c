@@ -10,7 +10,7 @@ int main(void)
 	int x;
 	char ch;
 
-	for (x = 48; x <= 58; x++)
+	for (x = 48; x < 58; x++)
 	{
 		for (ch = 'a'; ch <= 'f'; ch++)
 		{
