@@ -14,11 +14,15 @@ i = 0;
 
 while (i < 10)
 	{
-	while (x = 'a'; x <= 'z'; x++)
-	_putchar(x);
+	x = 'a';
 
+	while (x <= 'z')
+	{
+	putchar(x);
+	x++;
 	}
-	i++;
-_putchar('\n');
+
+	_putchar('\n');
+i++
 
 }
