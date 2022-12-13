@@ -14,7 +14,7 @@ i = 0;
 
 while (i < 10)
 	{
-	for (x = 'a'; x <= 'z'; x++)
+	while (x = 'a'; x <= 'z'; x++)
 	_putchar(x);
 
 	}
