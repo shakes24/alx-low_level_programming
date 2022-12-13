@@ -18,7 +18,7 @@ while (i < 10)
 
 	while (x <= 'z')
 	{
-	putchar(x);
+	_putchar(x);
 	x++;
 	}
 
