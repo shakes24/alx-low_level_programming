@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * main- check for uppercase
@@ -6,9 +6,9 @@ include "main.h"
  * @c: the character
  */
 
-int _isupper(int c);
+int _isupper(int c)
 
 {
-return (c >= 'A' && c <= 'Z');
-
+	return (c >= 'A' && c <= 'Z');
+	c++;
 }
