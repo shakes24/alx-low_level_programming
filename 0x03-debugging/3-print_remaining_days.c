@@ -3,8 +3,9 @@
 
 
 /**
- *convert_day - converts day of month to day of year, without accounting
+ * convert_day- converts day of month to day of year, without accounting
  * for leap year
+ * main- prints days remaining
  * @month: month in number format
  * @day: day of month
  * Return: days of the year
