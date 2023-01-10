@@ -1,0 +1,13 @@
+#include <stdio>
+/**
+ * main - prints the number of arguments passed into the function
+ * @argc: takes the number of command lines of argument
+ * @argv: is an array that contains the command lines
+ * Return: 0 always
+ */
+
+int main(int argc, char *argv[] _attribute)
+{
+	printf("%d\n", argv - 1);
+	return (0);
+}
