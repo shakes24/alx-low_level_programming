@@ -1,1 +1,1 @@
-my readme for c programming
+Starting argc and argv
